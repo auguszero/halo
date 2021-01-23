@@ -21,7 +21,7 @@ public class SensitiveConcealAspect {
 
     @Pointcut("@annotation(run.halo.app.annotation.SensitiveConceal)")
     public void pointCut() {
-        System.out.println(1);
+        System.out.println(2);
     }
 
     private Object sensitiveMask(Object comment) {
