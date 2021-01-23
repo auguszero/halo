@@ -30,6 +30,7 @@ public class DisableOnConditionAspect {
 
     @Pointcut("@annotation(run.halo.app.annotation.DisableOnCondition)")
     public void pointcut() {
+        // 101
         System.out.println(2);
     }
 
